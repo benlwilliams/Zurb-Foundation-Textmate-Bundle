@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;div class="seven columns"${1: id="${2:name}"}&gt;
+	<string>&lt;div class="seven columns"&gt;
 	${0:$TM_SELECTED_TEXT}
-&lt;/div&gt;</string>
+&lt;/div&gt;&lt;!-- .seven --&gt;</string>
 	<key>name</key>
 	<string>seven columns</string>
 	<key>scope</key>
