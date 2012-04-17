@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;div class="container"${1: id="${2:name}"}&gt;
-	&lt;div class="row"${3: id="${4:name}"}&gt;
+	<string>&lt;div class="container"&gt;
+	&lt;div class="row"&gt;
 		${0:$TM_SELECTED_TEXT}
-	&lt;/div&gt;
-&lt;/div&gt;</string>
+	&lt;/div&gt;&lt;!-- .row --&gt;
+&lt;/div&gt;&lt;!-- .container --&gt;</string>
 	<key>name</key>
 	<string>container &amp; row</string>
 	<key>scope</key>
